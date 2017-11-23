@@ -1,4 +1,4 @@
-<!--HTML pour le projet Calculator2000-->
+<!--HTML du projet Calculator2000-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,15 +16,18 @@
 </header>
 
 	<input type="text" value="" disabled="disabled" id="calcul"><br>
-	<!--Resultat, inputoutput-->
+	<!--Resultat, input output-->
 
+	<button value="/" onclick="division();" class="toucheoperateur" id="division">
+		<h2>/</h2>	
+	</button>	<!--diviser-->
 
-	<button value="" onclick="" class="touchecarrees" id="parentheseouverte">
+	<button value="" onclick="" class="touchedisable" id="parentheseouverte">
 		<h2>(</h2>
 	</button>	<!--parenthese (-->
 
 
-	<button value="" onclick="" class="touchecarrees" id="parenthesefermee">
+	<button value="" onclick="" class="touchedisable" id="parenthesefermee">
 		<h2>)</h2>
 	</button>	<!--parenthese )-->
 
@@ -37,10 +40,6 @@
 	<button value="+" onclick="addition();" class="toucheoperateur" id="addition">
 		<h2>+</h2>
 	</button><br><!--plus +-->
-
-	<button value="/" onclick="division();" class="toucheoperateur" id="division">
-		<h2>/</h2>	
-	</button>	<!--diviser-->
 	
 	<button value="7" onclick="sept();" class="touchecarrees" id="sept">
 		<h2>7</h2>
@@ -56,12 +55,6 @@
 		<h2>9</h2>
 	</button><br><!-- 9 -->
 
-
-	<button value="x" onclick="multiplication();" class="toucheoperateur" id="multiplication">
-		<h2>x</h2>
-	</button><!--multiplier x-->
-
-
 	<button value="4" onclick="quatre();" class="touchecarrees" id="quatre">
 		<h2>4</h2>
 	</button><!-- 4 -->
@@ -76,6 +69,9 @@
 		<h2>6</h2>
 	</button><br><!-- 6 -->
 
+	<button value="x" onclick="multiplication();" class="toucheoperateur" id="multiplication">
+		<h2>x</h2>
+	</button><!--multiplier x-->
 
 	<button value="1" onclick="un();" class="touchecarrees" id="un">
 		<h2>1</h2>
