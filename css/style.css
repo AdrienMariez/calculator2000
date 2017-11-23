@@ -10,41 +10,26 @@ body {
 }
 
 .touchecarrees {
-	
+	height: 60px;
+}
+
+.touchecarrees:hover {
+ background-color: #A9A9A9;
 }
 
 .toucheoperateur {
-
+	padding: 32px 16px;
 }
 
-#divise {
-	;
+.toucheoperateur:hover {
+ background-color: #A9A9A9;
 }
 
-#parentheseouverte {
-
+.touchedisable {
+    opacity: 0.6;
+    cursor: not-allowed;
 }
 
-#parenthesefermee {
-
-}
-
-#effacer {
-
-}
-
-#addition {
-
-}
-
-#sept {
-
-}
-
-#huit {
-
-}
-
-#multiplication {
-
+#egal {
+	width: 300px;
 }
