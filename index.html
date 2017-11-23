@@ -1,0 +1,108 @@
+<!--HTML pour le projet Calculator2000-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+		<script src="js/app.js"></script>
+		<title>Calculator 2000</title>
+</head>
+
+
+<body>
+<header>
+	<h1 id="titre">Calculator 2000</h1> <!--Titre principal-->
+</header>
+
+	<input type="text" value="" disabled="disabled" id="calcul"><br>
+	<!--Resultat, inputoutput-->
+
+
+	<button value="" onclick="" class="touchecarrees" id="parentheseouverte">
+		<h2>(</h2>
+	</button>	<!--parenthese (-->
+
+
+	<button value="" onclick="" class="touchecarrees" id="parenthesefermee">
+		<h2>)</h2>
+	</button>	<!--parenthese )-->
+
+
+	<button value="C" onclick="C();" class="touchecarrees" id="effacer">
+		<h2>C</h2>
+	</button>	<!--effacer C-->
+
+
+	<button value="+" onclick="addition();" class="toucheoperateur" id="addition">
+		<h2>+</h2>
+	</button><br><!--plus +-->
+
+	<button value="/" onclick="division();" class="toucheoperateur" id="division">
+		<h2>/</h2>	
+	</button>	<!--diviser-->
+	
+	<button value="7" onclick="sept();" class="touchecarrees" id="sept">
+		<h2>7</h2>
+	</button><!--7-->
+
+
+	<button value="8" onclick="huit();" class="touchecarrees" id="huit">
+		<h2>8</h2>
+	</button><!-- 8 -->
+
+
+	<button value="9" onclick="neuf();" class="touchecarrees" id="neuf">
+		<h2>9</h2>
+	</button><br><!-- 9 -->
+
+
+	<button value="x" onclick="multiplication();" class="toucheoperateur" id="multiplication">
+		<h2>x</h2>
+	</button><!--multiplier x-->
+
+
+	<button value="4" onclick="quatre();" class="touchecarrees" id="quatre">
+		<h2>4</h2>
+	</button><!-- 4 -->
+
+
+	<button value="5" onclick="cinq();" class="touchecarrees" id="cinq">
+		<h2>5</h2>
+	</button><!-- 5 -->
+
+
+	<button value="6" onclick="six();" class="touchecarrees" id="six">
+		<h2>6</h2>
+	</button><br><!-- 6 -->
+
+
+	<button value="1" onclick="un();" class="touchecarrees" id="un">
+		<h2>1</h2>
+	</button><!-- 1 -->
+
+
+	<button value="2" onclick="deux();" class="touchecarrees" id="deux">
+		<h2>2</h2>
+	</button><!--2-->
+
+
+	<button value="3" onclick="trois();" class="touchecarrees" id="trois">
+		<h2>3</h2>
+	</button><!--3-->
+
+	<button value="-" onclick="soustraction();" class="toucheoperateur" id="soustraction">
+		<h2>-</h2>
+	</button><br><!--moins - -->
+
+
+	<button value="0" onclick="zero();" class="touchecarrees" id="zero">
+		<h2>0</h2>
+	</button><br><!-- 0 -->
+
+
+	<button value="=" onclick="egal();" id="egal">
+		<h2>=</h2>
+	</button><!-- = -->
+</body>
+</html>
